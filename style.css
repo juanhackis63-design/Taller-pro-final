@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; text-align:center; background:#f4f4f4; }
+header { background:#c62828; color:white; padding:15px; }
+main { margin-top:30px; }
+button { padding:10px 20px; border:none; border-radius:6px; background:#c62828; color:white; cursor:pointer; }
+button:hover { background:#b71c1c; }
+.presupuesto { border-top:1px solid #c62828; margin-top:10px; padding-top:10px; }
+.presupuesto input { width:80px; margin:2px 5px 5px 0; }
+.presupuesto button { background-color: #1976d2; }
+.presupuesto button:hover { background-color: #1565c0; }
+.presupuesto .resultado { margin-top:5px; font-weight:bold; }

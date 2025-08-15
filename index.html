@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Taller Pro</title>
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="../manifest.json">
+</head>
+<body>
+<header>
+<h1>🚗 Taller Pro</h1>
+</header>
+
+<main>
+<div id="search-container">
+  <input type="text" id="marca" placeholder="Marca">
+  <input type="text" id="modelo" placeholder="Modelo">
+  <input type="text" id="tipo" placeholder="Tipo (Turismo/Furgoneta)">
+  <input type="number" id="anioMin" placeholder="Año min">
+  <input type="number" id="anioMax" placeholder="Año max">
+  <input type="text" id="vin" placeholder="VIN">
+  <input type="text" id="combustible" placeholder="Combustible">
+  <button onclick="buscarVehiculos()">Buscar</button>
+</div>
+
+<div id="resultados"></div>
+</main>
+
+<footer>
+<p>Versión PWA - Taller Pro</p>
+</footer>
+
+<script src="app.js"></script>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('../service-worker.js').then(()=>console.log('Service Worker registrado'));
+}
+</script>
+</body>
+</html>

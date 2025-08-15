@@ -1,0 +1,15 @@
+[
+  {
+    "marca":"Ford",
+    "modelo":"Fiesta",
+    "anio":1990,
+    "tipo":"Turismo",
+    "vin":"ABC123XYZ",
+    "combustible":"Gasolina",
+    "motor":"1.3L 60CV",
+    "neumaticos":"155/70 R13",
+    "fluidos":{"aceite":"3.5L","refrigerante":"5L","frenos":"0.8L"},
+    "pares":{"bujias":"20Nm","tornilloRueda":"100Nm"},
+    "manual":"ford_1990_turismo.pdf"
+  }
+]
